@@ -7,21 +7,16 @@
     <title>idade</title>
 </head>
 <body>
-    <div id = "idade">
+    <form id = "formu">
     <h1>Calculo de Idade</h1>
-    <label >Dia:</label><br>
-    <input type="number" id = "dia"><br>
+    <label for="pop" >Data de Nascimento:</label><br>
+    <input type="date" name="pop" id="pop">
+    <button type="button" onclick="calcular()">Calcular Idade</button>
+    </form>
+    
+    <p id = "res">
 
-    <label >Mês:</label><br>
-    <input type="number" id = "mes"><br>
-
-    <label >Ano:</label><br>
-    <input type="number" id = "ano"><br><br>
-    <input type="button" value="Calcular" onclick="calcular()">
-    </div>
-    <div id = "res">
-
-    </div>
+    </p>
     <script src="01.js"></script>
 </body>
 </html>
