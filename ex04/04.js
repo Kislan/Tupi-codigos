@@ -1,10 +1,12 @@
 function tome(){
-    let email = document.getElementById("em")
-    
-
+    let email = document.getElementById("em").value
+    let res = document.getElementById("res").value
 
     if(email.includes('@') && email.includes('.')){
-        return alert(`Seu email está correto`)
+        alert(`Seu email está correto`)
+    }else if (email.includes("@")){
+        alert("Está faltando o .")
     }else{
-        return alert("sfre")
-    }}
+        alert("Está faltando o @")
+    }
+}
