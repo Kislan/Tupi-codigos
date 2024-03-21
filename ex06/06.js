@@ -19,7 +19,7 @@ function troca(){
     }else if (cor == "verde"){
         text.style.color = "green"
     }else if (cor == "preto"){
-        alert("A letra já é preta Abençoado!")
+        text.style.color = "green"
     }else {
         alert("Escolha uma cor comum!")
     }
