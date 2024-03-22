@@ -1,6 +1,6 @@
 function pesquisar(){
-    let text = document.getElementById("ti").value
-    let letra = document.getElementById("ri").value
+    let text = document.getElementById("ti").value.toLowerCase()
+    let letra = document.getElementById("ri").value.toLowerCase()
     let res = document.getElementById("res")
     let comprimento = text.length
     let contar = 0
