@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crescente ou Decrescente</title>
 </head>
 <body>
-    <form action="
-    "></form>
-    
+
+    <form id="ordem">
+    <h1>Ordenar Números</h1>
+    <label for="num"><h3>Números separados por virgulas!</h3></label>
+    <input type="text" name="num" id="num"><br><br>
+    <input type="radio" name="cres" id="cres">Crescente
+    <input type="radio" name="des" id="des">Decrescente <br><br>
+    <button type="button" onclick="trap()">Submeter</button>
+    <p id = "res"></p>
+    </form>
+
+    <script src="10.js"></script>
 </body>
 </html>
+
+
 <!-- Escreva uma função que ordene um array de números em ordem crescente ou decrescente, 
     baseado em uma seleção do usuário em um formulário. -->
