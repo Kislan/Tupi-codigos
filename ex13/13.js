@@ -5,5 +5,5 @@ function tila(){
     tico = espaco.join("")
 
     res.innerHTML = `${tico}`
-
+    
 }
