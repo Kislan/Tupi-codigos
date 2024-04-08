@@ -5,12 +5,14 @@ function trap() {
     let list = [parseFloat(numero)]
     
     if (ordem === "cres") {
-        list.sort()
+        list.sort((a,b) => a-b)
         res.innerHTML = `Na ordem Crescente: ${list}`
     } else if (ordem === "des") {
-        list.sort()
+        list.sort((b,a) => a - b)
         res.innerHTML = `Na ordem Descrescente: ${list.reverse()}`
     } else {
         alert("Siga as instruções")
     }
 }
+
+
