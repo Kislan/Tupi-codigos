@@ -5,20 +5,20 @@ function papo(){
     const senha2 = document.getElementById("senha2").value
     let nada = ocument.getElementById("nada").value
 
-    if(nome || gmail || senha == nada){
+    if(nome === ""|| gmail === "" || senha == "" || senha2 === ""){
         alert("Preencha todos os campos!")
     }
     if(gmail.includes("@") || gmail.includes(".")){
-
-    }else{
         alert("O gmail precisa ter o @ ou .")
     }
     if(senha.length < 8){
         alert("senha tem pelo menos 8 caracteres")
     }
-    if(senha != senha2){
+    if(senha !== senha2){
         alert("a senha e a confirmação de senha não são iguais.")
     }
+    
+    
 
 }
 
